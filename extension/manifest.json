@@ -1,0 +1,21 @@
+{
+    "name": "Asset Copier",
+    "version": "2.1", 
+    "manifest_version": 2,
+    "description": "New And Enhanced Asset Copier!", 
+    "browser_action": {
+        "default_icon": "Roblox.png"
+    },
+    "permissions": [
+        "cookies",
+        "https://roblox.com/" ,
+        "storage"
+    ],
+    "background": {
+        "scripts": ["index.js"]
+    },
+    "icons": { "16": "Roblox.png",
+           "48": "Roblox.png",
+          "128": "Roblox.png" }
+   
+}
